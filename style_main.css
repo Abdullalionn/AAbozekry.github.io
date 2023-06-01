@@ -144,10 +144,6 @@ margin-top: 5%;
 padding: 50px;
 font-size: 18px;
 }
-
-* {
-scroll-behavior: smooth;
-}
 .Programming{
     border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
@@ -220,3 +216,6 @@ margin: 50px;
 margin-top: 55px;
 margin-bottom: 100px;
 }
+* {
+    scroll-behavior: smooth;
+    }
