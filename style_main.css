@@ -120,23 +120,23 @@ table, td {
             transition-duration: 1s;
             border-radius: 15px;
             }
-            .font{
-            font-family: Arial, sans-serif;}
-            .Aboutme_title{
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 50px;
-                margin-left: 40%;
-                margin-top: 10%;
-              }
-          .Aboutme_div{
-            border: 1px solid rgb(255, 255, 255);
-            border-collapse: collapse;
-            width: 60%;
-            height:1500px;
-            margin: 4.5%;
-            margin-left: 330px;
-            border-radius: 10px;
-            background-color: whitesmoke;
+.font{
+font-family: Arial, sans-serif;}
+.Aboutme_title{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+margin-left: 40%;
+margin-top: 10%;
+}
+.Aboutme_div{
+border: 1px solid rgb(255, 255, 255);
+border-collapse: collapse;
+width: 60%;
+height:1500px;
+margin: 4.5%;
+margin-left: 330px;
+border-radius: 10px;
+background-color: whitesmoke;
           }
 .Aboutme_text{
 font-family: Arial, Helvetica, sans-serif;
