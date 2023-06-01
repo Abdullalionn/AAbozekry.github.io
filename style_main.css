@@ -158,41 +158,41 @@ table, td {
                 border-radius: 10px;
                 background-color: whitesmoke;
               }
-              .Photoshop_img{
-                margin-left: 30%;
-                margin-top: 50px;
-                margin-bottom: 70px;
+.Photoshop_img{
+ margin-left: 30%;
+margin-top: 50px;
+ margin-bottom: 70px;
               
-              }
-              .Photo_editing_text{
-                font-family: Arial, Helvetica, sans-serif;
-                margin: 50px;
-                margin-top: 60px;
-                margin-bottom: 50px;
-              }
+ }
+.Photo_editing_text{
+font-family: Arial, Helvetica, sans-serif;
+margin: 50px;
+ margin-top: 60px;
+margin-bottom: 50px;
+}
               
-              .Video_Editing{
-                border: 1px solid rgb(255, 255, 255);
-                border-collapse: collapse;
-                width: 90%;
-                height:900px;
-                margin: 4.5%;
-                border-radius: 10px;
-                background-color: whitesmoke;
-              }
-              .Video_Editing_title{
-                font-family: Arial, Helvetica, sans-serif;
-                margin-left:30% ;
-              }
-              .video_editing_img{
-                margin-left: 30%;
-                margin-top: 50px;
-                margin-bottom: 70px;
-                border-radius: 5%;
-              }
-              .video_editing_text{
-                font-family: Arial, Helvetica, sans-serif;
-                margin: 50px;
-                margin-top: 55px;
-                margin-bottom: 100px;
-              }
+.Video_Editing{
+border: 1px solid rgb(255, 255, 255);
+border-collapse: collapse;
+width: 90%;
+height:900px;
+margin: 4.5%;
+border-radius: 10px;
+background-color: whitesmoke;
+}
+.Video_Editing_title{
+font-family: Arial, Helvetica, sans-serif;
+margin-left:30% ;
+ }
+.video_editing_img{
+margin-left: 30%;
+margin-top: 50px;
+ margin-bottom: 70px;
+border-radius: 5%;
+}
+.video_editing_text{
+font-family: Arial, Helvetica, sans-serif;
+margin: 50px;
+margin-top: 55px;
+margin-bottom: 100px;
+}
