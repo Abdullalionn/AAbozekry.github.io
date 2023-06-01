@@ -70,3 +70,56 @@ table, td {
         color: white;
         font-family:Arial ;
         }
+        .button_div{
+            align-items: center;
+            }
+            .button {
+            background-color: #ffffff00; /* Green */
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            align-items: center;
+            }
+            .My_Skills{
+            background-color: #ffffff00; 
+            color: rgb(255, 255, 255); 
+            border: 2px solid #574caf;
+            padding:10px 20px;
+            font-size: 20px;
+            border-radius: 15px;
+            transition-duration: 1s;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            .My_Skills:hover{
+            background-color: #574caf;
+            color: white;
+            transition-duration: 1s;
+            border-radius: 15px;
+            }
+            .About_Me{
+            background-color: #574caf;
+            color: white;
+            transition-duration: 1s; 
+            border: 2px solid #574caf;
+            padding:10px 20px;
+            font-size: 20px;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            }
+            .About_Me:hover{
+            background-color: #ffffff00; 
+            color: rgb(255, 255, 255); 
+            border: 2px solid #574caf;
+            transition-duration: 1s;
+            border-radius: 15px;
+            }
+            .font{
+            font-family: Arial, sans-serif;
+            }
