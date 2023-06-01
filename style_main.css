@@ -8,6 +8,9 @@ table, td {
     td {
     width:30%;
     }
+    .header-aboutme{
+        margin-right: 10px;
+    }
     .header {
     overflow: hidden;
     background-color: #0047AB;
