@@ -68,3 +68,6 @@ table, td {
     background-attachment: fixed;
     background-position: center; 
     }
+    .font{
+        font-family: Arial, sans-serif;
+    }
