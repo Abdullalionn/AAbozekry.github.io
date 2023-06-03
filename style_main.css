@@ -141,6 +141,7 @@ height:1500px;
 margin: auto;
 border-radius: 10px;
 background-color: whitesmoke;
+overflow-wrap: normal;
           }
 .Aboutme_text{
 font-family: Arial, Helvetica, sans-serif;
@@ -149,14 +150,14 @@ padding: 50px;
 font-size: 18px;
 }
 .Programming{
-    border: 1px solid rgb(255, 255, 255);
-    border-collapse: collapse;
-    width: 90%;
-    height:900px;
-    margin: 4.5%;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    }
+border: 1px solid rgb(255, 255, 255);
+border-collapse: collapse;
+width: 90%;
+height:900px;
+margin: 4.5%;
+border-radius: 10px;
+background-color: whitesmoke;
+}
 .Programming_title{
 font-family: Arial, Helvetica, sans-serif;
 margin-left:30% ;
