@@ -142,12 +142,13 @@ margin: auto;
 border-radius: 10px;
 background-color: whitesmoke;
 overflow-wrap: normal;
-          }
+}
 .Aboutme_text{
 font-family: Arial, Helvetica, sans-serif;
 margin-top: 5%;
 padding: 50px;
 font-size: 18px;
+overflow-wrap: normal;
 }
 .Programming{
 border: 1px solid rgb(255, 255, 255);
