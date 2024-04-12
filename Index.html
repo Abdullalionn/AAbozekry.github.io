@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body class="body" id="body">
+    <a href="#" class="button1">
+      <img id="toggleButton" src="settings.svg" alt="settings" class="s_icon" />
+    </a>
+    <div id="popupWidget" class="popup-widget">
+      <button id="closeButton" class="xbutton">
+        <i class="fas fa-times"></i>
+      </button>
+      <table class="table" border="0">
+        <tr>
+          <td class="title">Settings</td>
+          </tr>
+          
+        </tr>
+        <tr>
+          <td><br></td>
+        </tr>
+        <tr>
+          <td class="theme">Theme:</td>
+          
+          <td ><button id="theme" class="color">Light☀️</button></td>
+        </tr>
+      </table>
+      
+    </div>
+    <div class="todo-container">
+      <input class="todoInput" type="text" id="todoInput" placeholder="Enter your task" />
+
+      <ul id="todoList"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.todo-container {
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 25px;
+  font-size: 20px;
+}
+
+.button-group {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  border-radius: 10px;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.button-group:hover .dropdown-content {
+  display: block;
+}
+
+button {
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: #00000000;
+  color: black;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  width: 100%;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.dark-theme .li {
+  background-color: #0e0e10;
+  color: #333;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+.s_icon {
+  width: 50px;
+  float: right;
+}
+.image {
+  /* Optional: style the image */
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.button1 {
+  /* Optional: style the button */
+  background-color: #ffffff00;
+  color: white;
+  text-decoration: none; /* Remove default link underline */
+  border-radius: 5px;
+  float: right;
+}
+.button:hover {
+  background-color: #c5444400;
+}
+.popup-widget {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  height: 30%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  background-color: #fff; /* Default background color */
+  color: #000; /* Default text color */
+}
+.popup-widget.dark-theme {
+  background-color: #333; /* Darken background color for dark theme */
+  color: #fff; /* Change text color to white for better contrast */
+  border-color: #555; /* Darken border color */
+}
+
+#closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#toggleButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.xbutton {
+  width: 30px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  height: 30px;
+}
+.actions {
+  background-color: #00000000;
+  color: black;
+}
+table {
+  width: 100%;
+}
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22.5px;
+}
+tr {
+  width: 50%;
+}
+.theme {
+  text-align: end;
+}
+.color {
+  border: black solid 1px;
+  float: left;
+  margin-left: 30px;
+}
+.dark-theme {
+  background-color: #0e0e10;
+  color: #fff; /* Change text color to white for better contrast */
+}
+
+.dark-theme .button-group {
+  filter: invert(1); /* Invert colors of icons in button group */
+}
+
+.dark-theme .button-group .dropdown-content {
+  background-color: #333; /* Darken dropdown background */
+}
+
+body.dark-theme .popup-widget {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color for better contrast */
+  border-color: #555; /* Dark border color */
+}
+.dark-theme .color {
+  color: white;
+  border: white solid 1px;
+}
+.dark-theme .s_icon {
+  color: white;
+}
+.dark-theme .todoInput {
+  background-color: #333;
+  color: white;
+  border-color: #555;
+}
